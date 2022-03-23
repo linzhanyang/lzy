@@ -1,0 +1,12 @@
+# Custom data for safety helmet
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: C:/Users/Lenovo/Desktop/32/mask_data/images/train
+val: C:/Users/Lenovo/Desktop/32/mask_data/images\val
+
+# number of classes
+nc: 2
+
+# class names
+names: ['mask', 'face']

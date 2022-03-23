@@ -195,7 +195,7 @@ class MainWindow(QTabWidget):
         about_img.setAlignment(Qt.AlignCenter)
 
         label_super = QLabel()
-        label_super.setText("<a href='https://www.baidu.com'>点击进入加载更多>>>>></a>") # 外链接
+        label_super.setText("<a href='https://github.com/linzhanyang/lzy.git'>点击进入加载更多代码及数据集>>>>></a>") # 外链接
         label_super.setFont(QFont('华文行楷', 18))
         label_super.setOpenExternalLinks(True)
         # label_super.setOpenExternalLinks(True)
